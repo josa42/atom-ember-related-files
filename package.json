@@ -8,13 +8,23 @@
     "atom-workspace": "ember-related-files:show"
   },
   "repository": "https://github.com/josa42/atom-ember-related-files",
+  "scripts": {
+    "test": "eslint ."
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-select-list": "^0.2.0",
-    "atom-quick-select": "0.1.0-beta.1",
-    "ember-find-related-files": "0.1.0-beta.1"
+    "atom-quick-select": "^0.1.1",
+    "ember-find-related-files": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
