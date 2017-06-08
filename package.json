@@ -5,7 +5,19 @@
   "description": "",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "ember-related-files:show"
+    "atom-workspace": [
+      "ember-related-files:show-adapter-list",
+      "ember-related-files:show-component-list",
+      "ember-related-files:show-controller-list",
+      "ember-related-files:show-helper-list",
+      "ember-related-files:show-initializer-list",
+      "ember-related-files:show-mixin-list",
+      "ember-related-files:show-model-list",
+      "ember-related-files:show-route-list",
+      "ember-related-files:show-serializer-list",
+      "ember-related-files:show-service-list",
+      "ember-related-files:show"
+    ]
   },
   "repository": "https://github.com/josa42/atom-ember-related-files",
   "scripts": {
@@ -17,7 +29,7 @@
   },
   "dependencies": {
     "atom-quick-select": "^0.1.1",
-    "ember-find-related-files": "^0.1.0"
+    "ember-find-related-files": "^0.3.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
